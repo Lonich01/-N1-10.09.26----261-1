@@ -65,11 +65,12 @@ d=math.sqrt((x2-x1)**2+(y2-y1)**2)
 print(d)
 
 #10
-a,b=map(float,input().split())
-if a>b:
-    print(a)
-else:
-    print(b)
+a = int(input())
+b = int(input())
+
+max = (a+b + abs(a - b)) // 2
+
+print(max)
 
 #11
 a,b=map(int,input().split())
